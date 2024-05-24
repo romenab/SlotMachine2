@@ -161,7 +161,7 @@ while (true) {
     break;
 }
 
-$game = new Game($conditions, [], $tokens, $bet);
+$game = new Game($conditions, $elements, $tokens, $bet);
 $game->playGame();
 
 
